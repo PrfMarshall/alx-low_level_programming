@@ -1,20 +1,16 @@
 #include "main.h"
 /**
- * main - print _putchar
- * is written by mbah
- * Return: 0
+ * main - here we describe the function but im to busy for that.
+ *
+ * Return: Always 0.
  */
-
-int main.h(void)
-{
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
+int main(void)
+	{
+		char s[] = "_putchar/n";
+		int i;
+		for (i = 0; i < 9; i++)
+	{
+		_putchar(s[i]);
+		}
 return (0);
 }
