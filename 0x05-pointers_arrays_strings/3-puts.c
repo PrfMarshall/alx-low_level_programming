@@ -1,17 +1,17 @@
-#include"main.h"
+#include "main.h"
 /**
- * _strlen - as the name of the function
+ * _puts - as the name of the function
  *
- * @s: parameter of the function
+ * @str: parameter of the function
  *
  * Return: depending on the function.
  */
-int _strlen(char *s)
+void _puts(char *str)
 {
-int i = 0;
-while (*s++ != 0)
+while (*str != 0)
 {
-i++;
+_putchar(*str);
+str++;
 }
-return (i);
+_putchar('\n');
 }
